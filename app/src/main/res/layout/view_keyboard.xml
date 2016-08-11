@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/custom_keyboard"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/dark_grey_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/pin_code_first_row"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/pin_code_button_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="1"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="2"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                style="@style/Keyboard_Button"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pin_code_second_row"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/pin_code_first_row"
+            android:layout_marginTop="0.5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/pin_code_button_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="4"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="5"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6"
+                style="@style/Keyboard_Button"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pin_code_third_row"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/pin_code_second_row"
+            android:layout_marginTop="0.5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/pin_code_button_7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="7"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="8"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9"
+                style="@style/Keyboard_Button"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pin_code_fourth_row"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/pin_code_third_row"
+            android:layout_marginTop="0.5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageButton
+                android:id="@+id/pin_code_button_del"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_ime_del"
+                style="@style/Keyboard_Button"
+                />
+
+            <Button
+                android:id="@+id/pin_code_button_0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:text="0"
+                style="@style/Keyboard_Button"
+                />
+
+            <ImageButton
+                android:id="@+id/pin_code_button_done"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_ime_done"
+                style="@style/Keyboard_Button"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
