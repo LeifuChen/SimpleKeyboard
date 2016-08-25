@@ -17,6 +17,16 @@
         android:layout_centerHorizontal="true"
         />
 
+    <EditText
+        android:id="@+id/anotherEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:layout_centerHorizontal="true"
+        />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
