@@ -3,6 +3,7 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:color="@color/pad_key_pressed"
+        android:radius="20dp"
         tools:targetApi="LOLLIPOP">
     <item android:drawable="@color/dark_grey_blue" /> <!-- default -->
 </ripple>
